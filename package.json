@@ -1,0 +1,31 @@
+{
+  "name": "built_from_scratch_be",
+  "version": "1.0.0",
+  "description": "This is the folder for the Backend for Built From Scratch Web App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "server": "nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manas",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.310.0",
+    "@mux/mux-node": "^7.3.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "express-validator": "^6.15.0",
+    "formidable": "^2.1.1",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "log4js": "^6.9.1",
+    "mongoose": "^7.0.3",
+    "mongoose-paginate-v2": "^1.7.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0"
+  }
+}
